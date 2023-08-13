@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+body {
+    height: 100vh;
+    width: 99.5vw;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Remove number input spinner */
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.modal-backdrop {
+    --bs-backdrop-zindex: -1 !important;
+}
